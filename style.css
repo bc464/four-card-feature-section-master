@@ -5,14 +5,81 @@
 html {
 	height: 100vh;
 }
-
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
-
+	background-color: hsl(0, 0%, 98%);
 }
-
-
+.headInfo {
+	text-align: center;
+	width: 500px;
+	margin-left: 30%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.head1 {
+	font-weight: 200;
+}
+.head2 {
+	font-weight: 600;
+	
+}
+.headPar {
+	font-weight: 200;
+	line-height: 1.5;
+}
+.containers {
+	width: 1200px;
+	
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.containers p {
+	padding-right: 30px;
+}
+img {
+	float: right;
+	padding-top: 25px;
+	padding-right: 5px;
+}
+.container1 {
+	width: 300px;
+	height: 160px;
+	border-radius: 3px;
+	margin-top: 110px;
+	margin-left: 100px;
+	border-top: 3px solid hsl(180, 62%, 55%) ;
+	padding: 20px;
+	box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.container2 {
+	width: 300px;
+	height: 160px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	border-top: 3px solid hsl(0, 78%, 62%) ;
+	padding: 20px;
+	box-shadow:  0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.container3 {
+	width: 300px;
+	height: 160px;
+	border-radius: 3px;
+	border-top: 3px solid hsl(34, 97%, 64%) ;
+	padding: 20px;
+	box-shadow:  0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.container4 {
+	width: 300px;
+	height: 160px;
+	border-radius: 3px;
+	border-top: 3px solid hsl(212, 86%, 64%) ;
+	padding: 20px;
+	margin-top: 110px;
+	box-shadow:  0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
 .attribution { 
 	font-size: 11px; 
 	text-align: center; 
@@ -20,7 +87,47 @@ body {
 .attribution a { 
 	color: hsl(228, 45%, 44%); 
 }
-
-@media only screen and {max-width:  500px; {
-
-	}}
+@media only screen and (max-width:  500px) {
+	body {
+		width: 375px;
+	}
+	.headInfo {
+		width: 350px;
+		margin-left: 10px;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.headPar {
+		margin-left: 5px;
+		text-align: left;
+	}
+	.containers {
+		display: block;
+		width: 375px;
+		
+	}
+	.containers p {
+		margin-bottom: -10px;
+		padding-right: 20px;
+	}
+	img {
+		padding-right: 10px;
+	}
+	.container1 {
+		margin-top: 50px;
+		margin-left: 0.1px;
+		margin-bottom: 15px;
+	}
+	.container2 {
+		margin-left: 0.1px;
+		margin-bottom: 15px;
+	}
+	.container3 {
+		margin-left: 0.1px;
+		margin-bottom: 15px;
+	}
+	.container4 {
+		margin-left: 0.1px;
+		margin-top: 15px;
+	}
+}	
