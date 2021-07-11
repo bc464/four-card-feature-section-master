@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Screenshot 2021-07-11 at 14-59-48 Frontend Mentor Four card feature section](https://user-images.githubusercontent.com/82536545/125196110-d2689200-e258-11eb-904b-4a897a9f1c8f.png)
+![Screenshot 2021-07-11 at 14-59-48 Frontend Mentor Four card feature section](https://user-images.githubusercontent.com/82536545/125196110-d2689200-e258-11eb-904b-4a897a9f1c8f.png)
 
 
 - Solution URL: https://bc464.github.io/four-card-feature-section-master/
