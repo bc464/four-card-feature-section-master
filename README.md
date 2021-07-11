@@ -25,9 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2021-07-09 at 11-45-36 Frontend Mentor 3-column preview card component](https://user-images.githubusercontent.com/82536545/125060389-9db7d780-e0ac-11eb-9ab7-eb4eb4b12f8c.png)
+[Screenshot 2021-07-11 at 14-59-48 Frontend Mentor Four card feature section](https://user-images.githubusercontent.com/82536545/125196110-d2689200-e258-11eb-904b-4a897a9f1c8f.png)
 
-- Solution URL: https://bc464.github.io/3-column-preview-card-component-main/
+
+- Solution URL: https://bc464.github.io/four-card-feature-section-master/
 
 ### Built with
 
